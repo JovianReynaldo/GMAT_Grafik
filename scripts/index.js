@@ -1,6 +1,5 @@
 
 $( document ).ready(function() {
-    window.myLine = new Chart('canvas', config);
     window.yaw = new Chart('yaw-canvas', configYaw);
     window.pitch = new Chart('pitch-canvas', configPitch);
     window.roll = new Chart('roll-canvas', configRoll);

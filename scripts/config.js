@@ -1,13 +1,16 @@
 var configYaw = {
     type: 'line',
     data: {
-        labels: ['0'],
+        labels: ['0','0','0','0'],
         datasets: [{
             label: 'Yaw',
             borderColor: 'rgb(54, 162, 235)',
             backgroundColor: 'rgb(54, 162, 235)',
             data: [
-                0
+                0,
+                0,
+                0,
+                0,
             ],
             fill: false,
         }]
@@ -73,13 +76,17 @@ var configYaw = {
 var configPitch = {
     type: 'line',
     data: {
-        labels: ['0'],
+        labels: ['0','2','2','1','2'],
         datasets: [{
             label: 'Pitch',
             borderColor: 'rgb(255,165,0)',
             backgroundColor: 'rgb(255,165,0)',
             data: [
-                0
+                0,
+                2,
+                2,
+                1,
+                2,
             ],
             fill: false,
         }]
@@ -144,13 +151,14 @@ var configPitch = {
 var configRoll = {
     type: 'line',
     data: {
-        labels: ['0'],
+        labels: ['0','0'],
         datasets: [{
             label: 'Roll',
             borderColor: 'rgb(50,205,50)',
             backgroundColor: 'rgb(50,205,50)',
             data: [
-                0
+                0,
+                0,
             ],
             fill: false,
         }]
@@ -212,13 +220,17 @@ var configRoll = {
 var configAltitude = {
     type: 'line',
     data: {
-        labels: ['0'],
+        labels: ['3','2','1','0','0'],
         datasets: [{
             label: 'Altitude',
             borderColor: 'rgb(153,50,204)',
             backgroundColor: 'rgb(153,50,204)',
             data: [
-                0
+                3,
+                2,
+                1,
+                0,
+                0,
             ],
             fill: false,
         }]
@@ -279,13 +291,20 @@ var configAltitude = {
 var configTemperature = {
     type: 'line',
     data: {
-        labels: ['0'],
+        labels: ['0','20','10','10','0','0','0','0'],
         datasets: [{
             label: 'Temperature',
             borderColor: 'rgb(255,0,0)',
             backgroundColor: 'rgb(255,0,0)',
             data: [
-                0
+                0,
+                20,
+                10,
+                10,
+                0,
+                0,
+                0,
+                0,
             ],
             fill: false,
         }]
@@ -336,7 +355,7 @@ var configTemperature = {
                 },
                 ticks: {
                     min: -5,
-                    max: 5,
+                    max: 30,
                     stepSize: 20
                 }
             }]
@@ -347,13 +366,17 @@ var configTemperature = {
 var configPressure = {
     type: 'line',
     data: {
-        labels: ['0'],
+        labels: ['0','1','1','3','3'],
         datasets: [{
             label: 'Pressure',
             borderColor: 'rgb(0,0,139)',
             backgroundColor: 'rgb(0,0,139)',
             data: [
-                0
+                0,
+                1,
+                1,
+                3,
+                3,
             ],
             fill: false,
         }]
@@ -405,68 +428,6 @@ var configPressure = {
                     min: 0,
                     max: 5,
                     stepSize: 1000
-                }
-            }]
-        }
-    }
-};
-
-var config = {
-    type: 'line',
-    data: {
-        labels: ['0'],
-        datasets: [{
-            label: 'Roll',
-            borderColor: 'rgb(54, 162, 235)',
-            backgroundColor: 'rgb(54, 162, 235)',
-            data: [
-                0
-            ],
-            fill: false,
-        }]
-    },
-    options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        title: {
-            display: true,
-            text: 'Grafik Roll'
-        },
-        legend: {
-            display: false,
-        },
-        tooltips: {
-            mode: 'index',
-            intersect: false,
-        },
-        hover: {
-            mode: 'nearest',
-            intersect: true
-        },
-        scales: {
-            xAxes: [{
-                display: true,
-                scaleLabel: {
-                    display: true,
-                    labelString: 'Waktu'
-                },
-                gridLines: {
-                    color: "rgba(0, 0, 0, 0)",
-                }
-            }],
-            yAxes: [{
-                display: true,
-                scaleLabel: {
-                    display: true,
-                    labelString: 'Roll'
-                },
-                gridLines: {
-                    color: "rgba(0, 0, 0, 0)",
-                },
-                ticks: {
-                    min: -5,
-                    max: 5,
-                    stepSize: 10
                 }
             }]
         }
