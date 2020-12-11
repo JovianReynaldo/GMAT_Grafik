@@ -1,7 +1,7 @@
 var configYaw = {
     type: 'line',
     data: {
-        labels: ['0','0','0','0'],
+        labels: ['0','1','2','3'],
         datasets: [{
             label: 'Yaw',
             borderColor: 'rgb(54, 162, 235)',
@@ -76,7 +76,7 @@ var configYaw = {
 var configPitch = {
     type: 'line',
     data: {
-        labels: ['0','2','2','1','2'],
+        labels: ['0','1','2','3','4'],
         datasets: [{
             label: 'Pitch',
             borderColor: 'rgb(255,165,0)',
@@ -151,7 +151,7 @@ var configPitch = {
 var configRoll = {
     type: 'line',
     data: {
-        labels: ['0','0'],
+        labels: ['0','1'],
         datasets: [{
             label: 'Roll',
             borderColor: 'rgb(50,205,50)',
@@ -220,7 +220,7 @@ var configRoll = {
 var configAltitude = {
     type: 'line',
     data: {
-        labels: ['3','2','1','0','0'],
+        labels: ['0','1','2','3','4'],
         datasets: [{
             label: 'Altitude',
             borderColor: 'rgb(153,50,204)',
@@ -291,7 +291,7 @@ var configAltitude = {
 var configTemperature = {
     type: 'line',
     data: {
-        labels: ['0','20','10','10','0','0','0','0'],
+        labels: ['0','1','2','3','4','5','6','7'],
         datasets: [{
             label: 'Temperature',
             borderColor: 'rgb(255,0,0)',
@@ -366,7 +366,7 @@ var configTemperature = {
 var configPressure = {
     type: 'line',
     data: {
-        labels: ['0','1','1','3','3'],
+        labels: ['0','1','2','3','4'],
         datasets: [{
             label: 'Pressure',
             borderColor: 'rgb(0,0,139)',
