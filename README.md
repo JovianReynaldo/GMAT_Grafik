@@ -1,6 +1,7 @@
 
 <b>Tugas membuat grafik </b>
 
+Libraries yang digunakan:
 - bootstrap
 - chart.js
 - jquery
