@@ -5,5 +5,6 @@
 - chart.js
 - jquery
 
-<a href="jovianreynaldo.github.io/GMAT_Grafik"> preview here </a>
+
+[Previews Here](https://jovianreynaldo.github.io/GMAT_Grafik)
 
